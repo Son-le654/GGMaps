@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-PHWVB3KB');
+        </script>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="robots" content="index,follow"/>
+        <meta name="author" content="Amen Family"/>
+        <meta name="copyright" content="Amen Family"/>
+        <meta name="csrf-token" content="zIu8fNgH4Uvdsie6nHbT4lg6hS0LkRNAcelkmIY4">
+        <meta http-equiv="refresh" content="1800"/>
+        <link rel="icon" href="" type="image/png" sizes="30x30">
+        <!-- GOOGLE -->
+        <title></title>
+        <meta name="description" content=""/>
+        <meta name="keyword" content=""/>
+        <link rel="canonical" href="https://www.chieukhongdieu.com/"/>
+        <meta property="og:locale" content="vi_VN"/>
+        <!-- for Facebook -->
+        <meta property="og:title" content=""/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content="https://www.chieukhongdieu.com/"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:site_name" content=""/>
+        <meta property="fb:admins" content=""/>
+        <meta property="fb:app_id" content=""/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content=""/>
+        <meta name="twitter:description" content=""/>
+        <meta name="twitter:image" content=""/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css"/>
+        <link rel="stylesheet" href="https://chieukhongdieu.com/backend/css/plugins/toastr/toastr.min.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/uikit/css/uikit.modify.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/library/css/library.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/plugins/wow/css/libs/animate.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/core/plugins/jquery-nice-select-1.1.0/css/nice-select.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/style.css?time=1728911408">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://chieukhongdieu.com/frontend/resources/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+        <script src="./frontend/resources/library/js/jquery.js"></script>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <script src="./frontend/resources/map.js"></script>
+        <script type="text/javascript" class="flasher-js">
+            (function() {
+                var rootScript = 'https://cdn.jsdelivr.net/npm/@flasher/flasher@1.3.2/dist/flasher.min.js';
+                var FLASHER_FLASH_BAG_PLACE_HOLDER = {};
+                var options = mergeOptions([], FLASHER_FLASH_BAG_PLACE_HOLDER);
+
+                function mergeOptions(first, second) {
+                    return {
+                        context: merge(first.context || {}, second.context || {}),
+                        envelopes: merge(first.envelopes || [], second.envelopes || []),
+                        options: merge(first.options || {}, second.options || {}),
+                        scripts: merge(first.scripts || [], second.scripts || []),
+                        styles: merge(first.styles || [], second.styles || []),
+                    };
+                }
+
+                function merge(first, second) {
+                    if (Array.isArray(first) && Array.isArray(second)) {
+                        return first.concat(second).filter(function(item, index, array) {
+                            return array.indexOf(item) === index;
+                        });
+                    }
+
+                    return Object.assign({}, first, second);
+                }
+
+                function renderOptions(options) {
+                    if (!window.hasOwnProperty('flasher')) {
+                        console.error('Flasher is not loaded');
+                        return;
+                    }
+
+                    requestAnimationFrame(function() {
+                        window.flasher.render(options);
+                    });
+                }
+
+                function render(options) {
+                    if ('loading' !== document.readyState) {
+                        renderOptions(options);
+
+                        return;
+                    }
+
+                    document.addEventListener('DOMContentLoaded', function() {
+                        renderOptions(options);
+                    });
+                }
+
+                if (1 === document.querySelectorAll('script.flasher-js').length) {
+                    document.addEventListener('flasher:render', function(event) {
+                        render(event.detail);
+                    });
+
+                }
+
+                if (window.hasOwnProperty('flasher') || !rootScript || document.querySelector('script[src="' + rootScript + '"]')) {
+                    render(options);
+                } else {
+                    var tag = document.createElement('script');
+                    tag.setAttribute('src', rootScript);
+                    tag.setAttribute('type', 'text/javascript');
+                    tag.onload = function() {
+                        render(options);
+                    }
+                    ;
+
+                    document.head.appendChild(tag);
+                }
+            }
+            )();
+        </script>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHWVB3KB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <div id="header" class="pc-header uk-visible-large uk-position-relative"></div>
+        <div id="mobileCanvas" class="uk-offcanvas offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="l1 uk-nav uk-nav-offcanvas uk-nav uk-nav-parent-icon" data-uk-nav></ul>
+            </div>
+        </div>
+        <div id="homepage" class="homepage">
+            <div class="button-arrow active" style="">
+                <button class="btn-arr">
+                    <svg class="menu-svg" viewBox="0 0 100 100">
+                        <path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
+                        <path d="m 30,50 h 40"></path>
+                        <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="sidebar">
+                <div class="btn-close">
+                    <i class="fi fi-rs-cross"></i>
+                </div>
+                <div class="wrapper">
+                    <div class="info">
+                        <a href="" class="image img-cover">
+                            <img src="/userfiles/image/z4887633358185_4be41c0d6f5116e4bea9fe8b649197aa.jpg" alt="">
+                        </a>
+                        <div class="text">
+                            <p class="name">Trần Quang Diệu</p>
+                            <a href="" class="update-profile">Cập nhật Profile</a>
+                            <a href="login.html" class="logout">
+                                <img src="/userfiles/image/circle.png" alt="">Đăng xuất
+                    
+                            </a>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="wrapper">
+                            <ul class="list-location">
+                                <li>
+                                    <a href="./location/jubail/11.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Jubail
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/abha/12.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Abha
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/hail/13.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Hail
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/buraydah/14.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Buraydah
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/hofuf/15.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Hofuf
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/tabuk/16.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Tabuk
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/jeddah/19.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Jeddah
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/riyadh/20.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Riyadh
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/khobar/22.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Khobar
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/khamis/23.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Khamis
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/taif/24.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Taif
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/yanbu/25.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Yanbu
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/jazan/26.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Jazan
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/bisha/27.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Bisha
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/al-rass/28.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Al rass
+                                
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./location/alula/29.html" class="location-item">
+                                        <img src="/userfiles/image/1cf04234491c38ffbc862ee80432f924.png" alt="">Alula
+                                
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="wrapper">
+                            <p>Google Maps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mapContainer" data-zoom="6" data-lat="24.71485209721924" data-long="46.6782767080538"></div>
+        </div>
+        <script>
+            var cities = [{
+                "id": 11,
+                "name": "Jubail",
+                "lat": "27.014653",
+                "long": "49.661451",
+                "phone": "+84 82 782 0109",
+                "publish": "1",
+                "created_at": "2024-10-04T10:15:58.000000Z",
+                "updated_at": "2024-10-04T11:32:59.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 12,
+                "name": "Abha",
+                "lat": "18.247863",
+                "long": "42.513396",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-04T10:16:43.000000Z",
+                "updated_at": "2024-10-04T10:16:43.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 13,
+                "name": "Hail",
+                "lat": "27.516353",
+                "long": "41.721731",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-04T10:20:37.000000Z",
+                "updated_at": "2024-10-04T10:20:37.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 14,
+                "name": "Buraydah",
+                "lat": "26.366417",
+                "long": "43.976892",
+                "phone": "+84 96 291 31 90",
+                "publish": "1",
+                "created_at": "2024-10-04T10:21:21.000000Z",
+                "updated_at": "2024-10-04T10:21:21.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 15,
+                "name": "Hofuf",
+                "lat": "25.381352",
+                "long": "49.593035",
+                "phone": "+84 96 291 31 90",
+                "publish": "1",
+                "created_at": "2024-10-04T10:22:53.000000Z",
+                "updated_at": "2024-10-04T10:22:53.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 16,
+                "name": "Tabuk",
+                "lat": "28.385989",
+                "long": "36.564526",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-04T10:24:01.000000Z",
+                "updated_at": "2024-10-04T10:24:01.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 19,
+                "name": "Jeddah",
+                "lat": "21.535413",
+                "long": "39.161669",
+                "phone": "+84 34 477 4093",
+                "publish": "1",
+                "created_at": "2024-10-04T11:30:37.000000Z",
+                "updated_at": "2024-10-04T11:36:46.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 20,
+                "name": "Riyadh",
+                "lat": "24.722139",
+                "long": "46.724800",
+                "phone": "+84 82 782 0109",
+                "publish": "1",
+                "created_at": "2024-10-04T11:31:26.000000Z",
+                "updated_at": "2024-10-04T17:37:46.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 22,
+                "name": "Khobar",
+                "lat": "26.327320",
+                "long": "50.153495",
+                "phone": "+84 345 470 918",
+                "publish": "1",
+                "created_at": "2024-10-04T16:29:04.000000Z",
+                "updated_at": "2024-10-07T19:37:42.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 23,
+                "name": "Khamis",
+                "lat": "18.301733",
+                "long": "42.729683",
+                "phone": "+84865790983",
+                "publish": "1",
+                "created_at": "2024-10-04T16:42:06.000000Z",
+                "updated_at": "2024-10-04T16:42:06.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 24,
+                "name": "Taif",
+                "lat": "21.287672",
+                "long": "40.424574",
+                "phone": "+84 345 470 918",
+                "publish": "1",
+                "created_at": "2024-10-04T22:27:34.000000Z",
+                "updated_at": "2024-10-04T22:27:34.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 25,
+                "name": "Yanbu",
+                "lat": "24.089847",
+                "long": "38.061829",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-05T22:34:45.000000Z",
+                "updated_at": "2024-10-08T18:00:00.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 26,
+                "name": "Jazan",
+                "lat": "16.889865",
+                "long": "42.570728",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-05T22:35:43.000000Z",
+                "updated_at": "2024-10-08T18:00:01.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 27,
+                "name": "Bisha",
+                "lat": "19.978066",
+                "long": "42.591527",
+                "phone": "+84865790983",
+                "publish": "1",
+                "created_at": "2024-10-08T16:57:21.000000Z",
+                "updated_at": "2024-10-08T16:57:21.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 28,
+                "name": "Al rass",
+                "lat": "25.874008",
+                "long": "43.512838",
+                "phone": "+84 82 782 0109",
+                "publish": "1",
+                "created_at": "2024-10-11T15:59:39.000000Z",
+                "updated_at": "2024-10-11T15:59:55.000000Z",
+                "deleted_at": null
+            }, {
+                "id": 29,
+                "name": "Alula",
+                "lat": "26.609208",
+                "long": "37.926547",
+                "phone": "+84 865790983",
+                "publish": "1",
+                "created_at": "2024-10-14T10:43:32.000000Z",
+                "updated_at": "2024-10-14T10:49:40.000000Z",
+                "deleted_at": null
+            }];
+        </script>
+        <footer class="footer">
+            <div class="notification-popup"></div>
+        </footer>
+        <script src="./backend/js/plugins/toastr/toastr.min.js"></script>
+        <script src="./frontend/resources/plugins/wow/dist/wow.min.js"></script>
+        <script src="./frontend/resources/uikit/js/uikit.min.js"></script>
+        <script src="./frontend/resources/uikit/js/components/sticky.min.js"></script>
+        <script src="./frontend/resources/uikit/js/components/lightbox.min.js"></script>
+        <script src="./frontend/core/plugins/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+        <script src="./frontend/resources/function.js"></script>
+        <script src="./frontend/resources/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+        <script src="https://getuikit.com/v2/src/js/components/sticky.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0&appId=103609027035330&autoLogAppEvents=1" nonce="E1aWx0Pa"></script>
+    </body>
+</html>
