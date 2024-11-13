@@ -61,7 +61,7 @@
 
         var ui = H.ui.UI.createDefault(map, defaultLayers.vector.normal.map);
 
-        var svgIcon = new H.map.Icon("/userfiles/image/location-2955.svg", { size: { w: 48, h: 48 }});
+        var svgIcon = new H.map.Icon("https://son-le654.github.io/GGMaps/userfiles/image/location-2955.svg", { size: { w: 48, h: 48 }});
 
         if(cities){
 
